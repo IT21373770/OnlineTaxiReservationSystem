@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<body>
+    <form name="frm-pin" method="post" action="pin-index-a.php">
+        <input type="hidden" name="mode" value="PinRequest" /> 
+        
+        <label class="w3-text-green"><b>Choose price</b></label>
+        
+        <input type="text" name="tot_pin_requested" onchange="calculateAmount(this.value)" required>
+    		
+    		
+        <label><b>Total Amount after Offer : </b></label>
+        
+        <input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly>
+        
+    <script>
+        function calculateAmount(val)
+        { 
+        	var price = val * (4 / 100);
+        	
+        	var tot_price = price - val;
+        	
+        	var divobj = document.getElementById('tot_amount');
+        	
+        	divobj.value = tot_price;
+        }
+    </script>
+<body>
+</html>

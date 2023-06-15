@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+table{
+  align-items: right;
+  align-content: right;
+  align:center;
+padding: 50px, 50px, 50px, 50px;
+}
+
+td{
+  padding-left: 50px;
+}
+
+.headwrap{
+  width: 1170px;
+  margin: auto;
+  background-color: rgb(0,0,0,0.5);
+}
+
+#sel{
+  width: 230px;
+  height: 25px;
+  transition:transform 0.5s;
+}
+
+
+header{
+background-color: rgb(0,0,0,0.5);
+-webkit-background-size:cover;
+background-size:cover;
+background-position: center center;
+position:relative;
+z-index: 10;
+}
+
+
+.naviarea{
+  float: left;
+  list-style: none;
+  margin-top: 30px;
+
+}
+
+.naviarea li{
+  display: inline-block;
+
+}
+
+
+.naviarea li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.naviarea li a:hover{
+  background: #fff;
+  color: #000;
+}
+
+.weltext{
+  color: white;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%x;
+  height: auto;
+  margin: 20% 30%;
+  z-index: 2;
+  text-shadow: 2px 5px 2px #65187a;
+  transition:transform 1s;
+}
+
+h1:hover{
+	 transform:translateY(-10px);
+   text-shadow:10px 10px 5px #0af;
+}
+
+
+h1{
+  font-size: 40px;
+}
+button{
+  color: #fbfcfd;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition:transform 0.5s;
+}
+
+button:hover{
+  width: 230px;
+  height: 50px;
+  transition:transform 0.5s;
+  color: #f0f;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+.vidcont {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 4;
+}

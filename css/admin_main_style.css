@@ -1,0 +1,64 @@
+/*RESIZE DDIV CONTAINER*/
+
+.resizebox{background-color:red;
+  width:101%;
+  max-width:1920px;
+  min-width:400px;
+  height:1000px;
+  margin-left:-10px;
+  overflow:hidden;
+
+}
+body{
+  background-color:white;
+  height:100%;
+  width:99%;
+}
+
+table
+{
+height:100%;
+width:99%;
+align-self: center;
+}
+
+/*NAVIGATION AREA STYLE*/
+
+.navi_ul
+{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #29C5F8;
+    font-size: 22px;
+
+
+    width:101%;
+    max-width:1920px;
+    min-width:400px;
+    margin-left:-10px;
+    margin-right: -10px;
+
+
+}
+
+.navi_li
+{
+  display: inline;
+  float: left;
+}
+
+.navi_li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: inherit;
+}
+
+.navi_li a:hover
+{
+  background-color: purple;
+
+}

@@ -1,0 +1,235 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    background-color:rgb(54, 53, 53);
+    width:100%;
+    background-position: center;
+    background-size:cover;
+}
+
+/*container-1*/
+.container-1{
+    height:80px;
+}
+
+.nav-1{
+    width:100%;
+    height:75px;
+    margin:auto;
+}
+
+.icon{
+    padding-left:20px;
+    padding-top:10px;
+    width:100px;
+    float:left;
+    height:60px;
+}
+
+#cName{
+    font-family:tahoma;
+    color: #fab132;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.head_log-sign{
+    width:400px;
+    float:right;
+    height:80px;
+}
+
+#S1{
+    margin:15px;
+    padding-right: 30px;
+    display:flex;
+    float:right;
+}
+
+ul li{
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family:arial;
+    transition:0.4s ease-out;
+    font-size:16px;
+}
+
+ul li a:hover{
+    color:#fab132;
+    border-radius: 5px;
+}
+
+/*container-2*/
+.container-2{
+    height:60px;
+}
+
+.menubar{
+    display:inline-flex;
+}
+
+ /*container-3*/
+ .container-3{
+     width:100%;
+     height:100%;
+     background-color: rgb(245, 245, 245);
+ }
+
+
+ .content{
+    padding-top: 40px;
+    text-align:center;
+ }
+
+
+
+ /*container-4*/
+
+ /*social-menu*/
+ i{
+    margin-top:30px;
+    padding-right:40px ;
+    float:right ;
+    color:white;
+    transition: 0.4s ease-out;
+}
+i:hover{
+    color: orange;
+}
+.fa-facebook{
+}
+.fa-instagram{
+}
+.fa-twitter{
+}
+.fa-linkedin{
+}
+/*container-5*/
+
+/*footer*/
+footer{
+
+   width:100%;
+   background-color: rgb(54, 53, 53);
+   color:rgb(255, 255, 255);
+   font-family: arial;
+   position: fixed;
+   bottom: 2px;
+   height:50px;
+}
+.content{
+  bottom: 60px;
+  display: flex;
+}
+
+.container-4{
+  bottom: 4px;
+}
+
+
+ .footer-menu{
+    display:inline-flex;
+    float: left;
+    padding-right: 30px;
+    padding-top: 5px;
+ }
+
+
+.container-5{
+    height:auto;
+    padding: 10px;
+    bottom: 3px;
+}
+
+.cpyright p{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/* css for faq cards starts here */
+
+.all_cards{
+  width: 100%;
+  padding: 35px 20px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 20px;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+.all_cards .a_card_container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.a_card_value{
+  font-size: 25px;
+  font-weight: 200;
+  color: black;
+  text-align: left;
+
+}
+
+.a_card_para{
+  color: black  ;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+
+.a_card_faq{
+  color: black  ;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+
+
+.a_card_icon{
+  font-size: 30px;
+  color: black;
+  padding-left: 10px;
+}
+
+
+.all_cards .a_card_container:hover{
+  background-color: purple;
+}
+.all_cards .a_card_container:hover .a_card_value {
+  color: white;
+
+}
+.all_cards .a_card_container:hover .a_card_para {
+  color: white;
+
+}
+.all_cards .a_card_container:hover .a_card_faq {
+  color: white;
+
+}
+.all_cards .a_card_container:hover .a_card_icon {
+  color: white;
+
+}

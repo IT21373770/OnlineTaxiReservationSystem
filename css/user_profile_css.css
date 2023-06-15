@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+}
+
+
+ .profile_frame{
+	width:800px;
+	height:400px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.user_details{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+
+.slide-row{
+	display:flex;
+	width:3200px;
+	transition:0.5s;
+}
+.slide-col{
+	width:800px;
+	height:400px;
+	position:relative;
+}
+
+
+
+.a_user_table{
+	position:absolute;
+	top:0;
+	right:0;
+	height:100%;
+}
+
+
+
+
+
+.main_container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://localhost/IWT%20PROJECT/imgvds/cityback.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.pr
+
+
+.indicator{
+	position:fixed;
+	left:50%;
+	transform:translate(-50%);
+  background-position: center;
+  display: flex;
+  justify-content:center;
+  align-self: auto;
+
+
+}
+
+.btn{
+	display:inline-block;
+	height:15px;
+	width:20px;
+	margin:5px;
+	border-radius:15px;
+	background:#ff0;
+	cursor:pointer;
+	transition:0.5s;
+	padding-bottom: 20px;
+  padding: 10px;
+
+}
+
+.active{
+	width:45px;
+}
+
+
+.active{
+	width:45px;
+  height: 20px;
+}
+
+
+/* start ofheader footer css styles */
+
+
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    background-color:rgb(54, 53, 53);
+    width:100%;
+    background-position: center;
+    background-size:cover;
+}
+
+
+/*container-1*/
+.container-1{
+    height:80px;
+}
+
+.nav-1{
+    width:100%;
+    height:75px;
+    margin:auto;
+}
+
+.icon{
+    padding-left:20px;
+    padding-top:10px;
+    width:100px;
+    float:left;
+    height:60px;
+}
+
+#cName{
+    font-family:tahoma;
+    color: #fab132;
+    font-weight: bold;
+}
+
+.head_log-sign{
+    width:400px;
+    float:right;
+    height:80px;
+}
+
+#S1{
+    margin:15px;
+    padding-right: 30px;
+    display:flex;
+    float:right;
+}
+
+ul li{
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family:arial;
+    transition:0.4s ease-out;
+    font-size:16px;
+}
+
+ul li a:hover{
+    color:#fab132;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/*container-2*/
+.container-2{
+    position: relative;
+    height:60px;
+}
+
+.menubar{
+    display:inline-flex;
+}
+
+
+
+
+
+
+
+ /*container-3*/
+ .container-3{
+    width:100%;
+    height:500px;
+ }
+
+.content{
+    background-color: rgb(255, 249, 249);
+    padding-top: 0px;
+ }
+
+ /*user page heading*/
+.userpage{
+    background-color: rgb(90, 88, 88);
+    color: #fab132;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Times New Roman' ;
+    font-weight: bold;
+    text-align:center;
+}
+
+/*2 coloums*/
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*customer details*/
+.userprofil{
+    padding: 20px;
+    margin: 20px;
+}
+#psnl-det{
+    margin:10px;
+    padding: 10px;
+    width:300px;
+    height: auto;
+    background-color: bisque;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#psnl-det-table{
+    width:200px;
+}
+
+
+/*profile picture*/
+.photo{
+    padding: 20px;
+    margin: 20px;
+}
+#pic{
+    margin:10px;
+    padding: 10px;
+    width:300px;
+    height: 300px;
+    background-color: bisque;
+}
+
+#avtr{
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+ /*footer*/
+footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color: rgb(54, 53, 53);
+    color:rgb(255, 255, 255);
+    font-family: arial;
+}
+ /*container-4*/
+ .container-4{
+    height:50px;
+ }
+
+ .footer-menu{
+    display:inline-flex;
+    float: left;
+    padding-right: 30px;
+    padding-top: 15px;
+ }
+
+ /*social-menu*/
+ i{
+    margin-top:30px;
+    padding-right:40px ;
+    float:right ;
+    color:white;
+    transition: 0.4s ease-out;
+}
+i:hover{
+    color: orange;
+}
+.fa-facebook{
+}
+.fa-instagram{
+}
+.fa-twitter{
+}
+.fa-linkedin{
+}
+
+
+
+
+
+/*container-5*/
+.container-5{
+    height:auto;
+    padding: 10px;
+}
+.cpyright p{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}

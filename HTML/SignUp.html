@@ -1,0 +1,97 @@
+<html>
+<head>
+	 <title>Drop Me-Sign up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6acd2a5707.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles/SignUpnew.css">
+        <!--<link rel="stylesheet" href="Cab reservation system template style.css">-->
+		<!--<link rel="stylesheet" href="SignUp.css">-->
+	<title> Sign Up </title>
+</head>
+<body>
+	<header>
+            <div class="container-1">
+                <div class="nav-1">
+                    <div class="icon">
+                        <H3 id="cName">DropMe Taxi Service</H3>
+                    </div>
+
+                    <nav class="head_log-sign">
+                        <ul id="log-Sign">
+                            <!--<li id="S1"><a href="#" target="_blank">Sign Up</a></li>
+                            <li id="S1"><a href="sign in.html" target="_blank">Sign In</a></li>-->
+                        </ul>
+                    </nav>
+                </div> 
+            </div>
+        
+            <nav class="container-2">
+                <ul class = "menubar">
+                    <!--<li><a href="Home after log in.html" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">About Us</a></li>
+                    <li><a href="#" target="_blank">Order a Taxi</a></li>
+                    <li><a href="#" target="_blank">User Admin</a></li>
+                    <li><a href="#" target="_blank">User Profile</a></li>-->
+                </ul>
+            </nav> 
+    </header>
+	<div class="container-3">
+	<img src="Images/sign in.jpg" id="sign-back">
+    <div class="content">
+		<div class="loginbox">
+		<img  class="avatar" src="images/avatar.jpg">
+			<h1> Sign Up </h1>
+
+			<form method = "POST" action="signUp.php">
+				<label for="fname">Username</label><br>
+				<input type="text" name="fname" placeholder="Enter username" required><br>
+				
+				<label for="email">E-mail</label><br>
+				<input type="email" name="email" id="email" placeholder="Enter email" required><br>
+				
+				<label for="address">Address</label><br>
+				<textarea rows="1" cols="20" name ="address" placeholder="Enter address" required></textarea><br>
+				
+				<label for="Mobile">Mobile Number</label><br>
+				<input type="Tel-Phone" name="Mobile" length = 10 placeholder="Enter mobile number" required><br>
+				
+				<label for="password">Password</label><br>
+				<input type="password" name="password" id="pw" placeholder="Enter password" required><br><br>
+			
+				<!--<a href="Home after log in .html">--><input type="submit" name="submit-signup" value="Register"><!--</a>-->
+				
+				<p id="do_hve_cc">Already have account?</p><a href="signIn.html" id="s-up">Sign In</a>
+				
+			</form>
+		</div>   
+    </div>
+	</div>
+	
+        
+	
+	<footer>
+            <div class="container-4">
+                <div class="footer">
+                    <ul class="footer-menu">
+                        <li><a href="#" target="_blank">T & C</a></li>
+                        <li><a href="#" target="_blank">Contact Us</a></li>
+                        <li><a href="#" target="_blank">FAQ</a></li>
+                    </ul>
+                    <div class="social-menu">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"></a><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"></a><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"></a><i class="fa-brands fa-linkedin"></i></a>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="container-5">
+                <div class="cpyright">
+                    <p>Copyright &copy DropMe Taxi Company (PVT) Ltd.All Right reserved.</p>
+                </div>
+            </div>
+    </footer>
+
+</body>
+</html>

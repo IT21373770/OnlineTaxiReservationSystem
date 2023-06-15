@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Online Cab and Taxi Reservation System Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6acd2a5707.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/booking.css">
+    </head>
+    <body>
+        <header>
+            <div class="container-1">
+                <div class="nav-1">
+                    <div class="icon">
+                        <H3 id="cName">DropMe Taxi Service</H3>
+                    </div>
+
+                    <nav class="head_log-sign">
+                        <ul id="log-Sign">
+                            <li id="S1"><a href="Home before log in.html" target="_blank">Log Out</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+            </div>
+        
+            <nav class="container-2">
+                <ul class = "menubar">
+                    <li><a href="#" disabled>Home</a></li>
+                    <li><a href="#" >About Us</a></li>
+                    <li><a href="#" disabled>Order a Taxi</a></li>
+                    <!--<li><a href="#" >User Admin</a></li>-->
+                    <li><a href="user profile.php" >User Profile</a></li>
+                </ul>
+            </nav> 
+        </header>
+        
+        <div class="container-3">
+            <div class="content">
+              <div style="padding:20px">
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                <h1 style="font-size: 70px"></h1> <h1 style="color:#00040f;">Book your Trip Online .... !</h1><br>
+                
+                <form method="POST" action="booking.php">
+                  
+                    <div class="row">
+                    <div class="col-25">
+                      <label for="pickup">Pick-Up *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="pick-up" name="Pick-Up" placeholder="Pick up Location.." required>
+                    </div>
+                  </div><br>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="dropoff">Drop-Off *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="drop-off" name="Drop-Off" placeholder="Drop-Off Location.."required>
+                    </div>
+                  </div><br>
+
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="pick-up date" required>Pick-Up Date *</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="date" name="dateofbirth" class="form-control" required>
+                    </div>
+
+                  </div><br>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="appt">Select a time:</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="time" id="appt" name="Pick-up-time" placeholder="Pick Up Time.." required>
+                    </div>
+                  </div><br>
+
+                  <div>
+                    <label for="Vehicle Type">Choose a Vehicle Type :</label>
+
+                  <input type="radio" name = "typ" value="Car" onclick = "vhcl()" id = "co1" >Car 
+                  <input type="radio" name = "typ" value="van" onclick = "vhcl2()" class = "co2" >van
+                  <input type="radio" name = "typ" value="threewheel" onclick = "vhcl3()" class = "co3" >ThreeWheel<br>
+
+                  </div><br>
+                  <div>
+                    <label for="booking packages">Choose a package :</label>
+                    <select name = "Fruit1" class="pak1">
+                      <option value="1" class = "cp1" > Rs.300 for 0-10 KM </option>
+                      <option value="2" class = "cp1" > Rs.600 for 10-20 KM </option>
+                      <option value="3" class = "cp1" > Rs.1100 for 20-50 KM </option>
+                      <option value="4" class = "cp1" > Rs.1500 for 50-100 KM </option>
+                    </select>
+                    <select name = "Fruit1" class="pak2">
+                      <option value="5" class = "cp1" > Rs.150 for 50-100 KM </option>
+                      <option value="6" class = "cp1" > Rs.250 for 100-150 KM </option>
+                      <option value="7" class = "cp1" > Rs.300 for 150-250 KM </option>
+                    </select>
+                    <select name = "Fruit1" class="pak3">
+                      <option value="8" class = "cp1" > Rs.160 for 0-5 KM </option>
+                      <option value="9" class = "cp1" > Rs.260 for 5-7 KM </option>
+                      <option value="10" class = "cp1"> Rs.450 for 7-12 KM </option>
+                      <option value="11" class = "cp1"> Rs.570 for 12-15 KM </option>
+                    </select>
+                  </div><br>
+
+                  <!--<div class="col-25">
+                    <label for="INFO">Cars and Vans only will be charged Rs.40 for every 1Km increase *</label>
+                  </div><br>-->
+
+                  <div class="row">                   
+                    <input type="submit" name="submit" value="Choose options">
+                  </div><br>
+                </div>
+        </div>
+
+        <footer>
+            <div class="container-4">
+                <div class="footer">
+                    <ul class="footer-menu">
+                        <li><a href="#" disabled>T & C</a></li>
+                        <li><a href="#" disabled>Contact Us</a></li>
+                        <li><a href="#" disabled>FAQ</a></li>
+                    </ul>
+                    <div class="social-menu">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"></a><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"></a><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"></a><i class="fa-brands fa-linkedin"></i></a>
+                    </div>   
+                </div>
+            </div>
+
+            <div class="container-5">
+                <div class="cpyright">
+                    <p>Copyright &copy DropMe Taxi Company (PVT) Ltd.All Right reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
+<script>
+  function vhcl()
+  {
+    no1 = document.getElementById("co1").value ;
+    document.getElementsByClassName("pak2")[0].disabled = true ;
+    document.getElementsByClassName("pak3")[0].disabled = true ;
+    document.getElementsByClassName("pak1")[0].disabled = false ;
+    // document.getElementsByClassName("cp1")[0].innerHTML = 'For a car - Rs.1500 for only 10 KM';
+    // document.getElementsByClassName("cp1")[1].innerHTML = 'For a car - Rs.2000 for only 20 KM';
+    // document.getElementsByClassName("cp1")[2].innerHTML = 'For a car - Rs.3000 for only 50 KM';
+    // document.getElementsByClassName("cp1")[3].innerHTML = 'For a car - Rs.5000 for only 100 KM';
+  }
+
+  function vhcl2()
+  {
+    no1 = document.getElementById("co1").value ;
+    document.getElementsByClassName("pak1")[0].disabled = true ;
+    document.getElementsByClassName("pak3")[0].disabled = true ;
+    document.getElementsByClassName("pak2")[0].disabled = false ;
+    // document.getElementsByClassName("cp1")[4].innerHTML = 'For a van - Rs.8000 for only 200 KM';
+    // document.getElementsByClassName("cp1")[5].innerHTML = 'For a van - Rs.15000 for only 400 KM';
+    // document.getElementsByClassName("cp1")[6].innerHTML = 'For a van - Rs.20000 for only 600 KM';
+
+  }
+
+  function vhcl3()
+  {
+    no1 = document.getElementById("co1").value ;
+    document.getElementsByClassName("pak1")[0].disabled = true ;
+    document.getElementsByClassName("pak2")[0].disabled = true ;
+    document.getElementsByClassName("pak3")[0].disabled = false ;
+    // document.getElementsByClassName("cp1")[7].innerHTML = 'For a three wheel - Rs.250 for only 5 KM';
+    // document.getElementsByClassName("cp1")[8].innerHTML = 'For a three wheel - Rs.500 for only 10 KM';
+    // document.getElementsByClassName("cp1")[9].innerHTML = 'For a three wheel - Rs.1700 for only 20 KM';
+    // document.getElementsByClassName("cp1")[10].innerHTML = 'For a three wheel - Rs.3500 for only 50 KM';
+
+  }
+</script>
